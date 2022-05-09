@@ -1,4 +1,4 @@
-var quizQuestions = [
+var questions = [
     {
         title: "What is the use of the <noscript> tag in Javascript?",
         choices: ["Clears Cache", "Contents are displayed by non Javascript browsers.", "Inserts a function into an array"], 
