@@ -96,7 +96,7 @@ function endQuiz() {
     clearInterval(timerId);
 
     // render end-screen
-    var endScreenEl = document.getElementById("end-screen");
+    var endScreenEl = document.getElementById("all-done");
     endScreenEl.removeAttribute("class");
 
     // final score
