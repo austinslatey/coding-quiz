@@ -26,12 +26,9 @@ var listHighscores = () => {
 
 
 var clearHighscore = () => {
-    if (err) {
-        console.log(err);
-    } else {
+
         window.localStorage.removeItem('highscores');
         window.location.reload();
-    }
 }
 
 document.getElementById('delete').onclick = clearHighscore;
